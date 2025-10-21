@@ -1,0 +1,23 @@
+{
+  "n_frames": 2701,
+  "mode": "lammps",
+  "patterns": {
+    "vasp": "vasprun-*_full.xml",
+    "lammps": "nve_*.lammpstrj",
+    "xyz": "traj.xyz"
+  },
+  "A_symbol": "N",
+  "B_symbol": "O",
+  "masses_amu": {
+    "A": 14.007,
+    "B": 15.999
+  },
+  "scatter_threshold_A": 8.0,
+  "ever_scattered": 1,
+  "morse": {
+    "De_eV": 6.495,
+    "a_invA": 2.3,
+    "re_A": 1.15
+  },
+  "zref_mode": "constant"
+}

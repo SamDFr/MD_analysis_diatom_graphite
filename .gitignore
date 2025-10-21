@@ -1,0 +1,8 @@
+# Virtual environments
+.venv/
+
+# Results directories 
+*_lammps
+*_vasp
+*_results
+./WIP
