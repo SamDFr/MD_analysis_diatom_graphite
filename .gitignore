@@ -9,3 +9,7 @@ WIP/
 results/
 
 data/
+test/
+# Temporary files
+*.out
+
